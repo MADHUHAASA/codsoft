@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>M</span>adhu.</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="#" class="btn-talk">Let's Talk</a>
+    </header>
+
+    <section class="home">
+        <div class="content">
+            
+            <img align="right" src="F:\Madhu\codsoft internship\madhu5.jpg" width="200" height="200">    
+            <h2>Hi, I'm <span>Gnanika Madhu Haasa </span></h2>
+            <h4>student</h4>
+ 
+            <p>I am persuing btech 2nd year in DVR & Dr.HS MIC college of Technology. 
+</p>
+                  
+            
+        </div>
+</section>
+
+   <section id="Achivements">
+        <article class="achivements">
+        <div class="container">
+            <h1 class="text-center">achievements</h1>
+          
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">INTERNSHIP</h4>
+                            <p class="card-text mt-3">I have done one internship on blue prism automation virtual internship which was provided by AICTE and EduSkills.
+                            </p>
+                        </div>   
+                    </div>  
+                </div>
+            </article>
+            <article class="achivements">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">GUVI's Skill-A-Thon</h4>
+                            <p class="card-text mt-3">I have learnt UI/UX designing course which was provided by AP government.I have participated in guvi's skill-a-thon in which i have create a wed designing app.
+                              
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+           </article>
+           <article class="achivements">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Web Development</h4>
+                            <p class="card-text mt-3">I have learnt HTML,CSS and JavaScript from infosys springboard.I really helped me to create websites.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+      </article>
+      <article class="achivements">
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">python</h4>
+                            <p class="card-text mt-3">I have learnt Python from Great Learning.They have explained everything in an easy way.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                  </div>
+        </article>
+            </div>
+        </div>
+<section class="main-section">
+  <div class="container">
+    <h1 class="heading-text">My Skills</h1>
+    <div class="width-50">
+      <div class="skill">
+        <b>HTML</b>
+        <span>85%</span>
+        <div>
+          <span style="width:85%"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <b>CSS</b>
+        <span>60%</span>
+        <div>
+          <span style="width:60%"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <b>JavaScript</b>
+        <span>40%</span>
+        <div>
+          <span style="width:40%"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <b> python</b>
+        <span>30%</span>
+        <div>
+          <span style="width:30%"></span>
+        </div>
+      </div>
+    </div>
+  
+    </div>
+  </div>
+</div>
+    </section>
+        </div>
+
+    </section>
+
+</section>
+            <div class="text">
+            <h1><b>Message me</b></h1</div>
+              <form action="#">
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" placeholder="Your Name" required>
+                  </div>
+                  <div class="field email">
+                    <input type="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="field textarea">
+                  <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                </div>
+                <div class="button-area">
+                  <button type="submit">Send message</button>
+                </div>
+              </form>
+            </div>  
+
+
+
+<section class="icons">
+              <div class="footer">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+
+</body>
+</html>
